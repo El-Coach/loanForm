@@ -1,0 +1,48 @@
+.LoanForm {
+  text-align: center;
+  background-color: rgba(0, 0, 255, 0.323);
+  color: white;
+  width: 80%;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+}
+.LoanForm form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.LoanForm hr {
+  width: 100%;
+}
+.LoanForm input {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+.LoanForm select {
+  margin-bottom: 20px;
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+}
+.LoanForm button {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  text-transform: capitalize;
+  background-color: rgb(211, 0, 127);
+  color: white;
+}
+.LoanForm button[disabled] {
+  background-color: gray !important;
+}
